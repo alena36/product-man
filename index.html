@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Product Man</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900|Roboto:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <section class="slider">
+    <section class="slider container">
         <div class="slider-content">
             <div class="slider-details">
-                <h2>Black&White</h2>
-                <p>
+                <h2>Black& <span class="white">White</span></h2>
+                <p class="details-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam
                 </p>
-                <a href="#">View Project</a>
+                <p class="view-details">
+                    <a href="#">View Project</a>
+                </p>
             </div>
-            <img src="img/image.png" height="491" width="365" alt="headphones"/>
+            <div class="image-wrapper">
+                <img src="img/image.png" height="491" width="365" alt="headphones"/>
+            </div>
         </div>
         <div class="slider-buttons">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+            <button class="btn-slider"></button>
+            <button class="btn-slider"></button>
+            <button class="btn-slider"></button>
         </div>
     </section>
 </body>
